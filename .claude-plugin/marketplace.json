@@ -9,7 +9,7 @@
       "name": "waterfall-lint",
       "source": "../",
       "description": "Sequential multi-critic QA loop that scrubs a finished artifact until critics run dry",
-      "version": "1.0.0"
+      "version": "1.0.1"
     }
   ]
 }

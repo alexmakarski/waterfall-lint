@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 (2026-08-14)
+
+Grok pin bumped `grok-4.5` to `grok-4.6` (shipped 2026-08-12; slug confirmed against `/v1/models`).
+
 ## 1.0.0 (2026-08-14)
 
 First public release. Extracted from an internal skill (lineage: internal v1.7.0) that ran production QA on client-facing intelligence reports, working papers, and site launches through July-August 2026.

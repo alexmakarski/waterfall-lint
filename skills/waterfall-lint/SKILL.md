@@ -1,6 +1,6 @@
 ---
 name: waterfall-lint
-version: 1.0.0
+version: 1.0.1
 description: Sequential multi-critic QA loop that scrubs a finished artifact until critics run dry. Critics run one at a time, each finding is fact-checked against ground truth before any fix, confirmed defects are fixed at class level (a validator, lint, or test, not just the instance), accepted warts go in a ledger every later critic sees, and the loop stops after two consecutive passes find nothing new. Companion to critic-gauntlet, which delivers a one-shot parallel verdict; waterfall-lint iteratively removes defects with fixes between passes. Rubrics ship for client-facing reports, working papers, and site launches.
 ---
 

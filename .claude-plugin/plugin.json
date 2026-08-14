@@ -1,7 +1,7 @@
 {
   "name": "waterfall-lint",
   "description": "Sequential multi-critic QA loop for finished artifacts. Critics (Codex, DeepSeek, Claude, Grok, Gemini) run one at a time with fixes between passes; every finding is fact-checked against receipts, confirmed defects are fixed at class level, and the loop stops after two consecutive dry passes. Companion to critic-gauntlet (verdict vs scrub).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Alex Makarski"
   },

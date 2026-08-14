@@ -13,10 +13,10 @@
 set -euo pipefail
 
 # --- Model pin ---------------------------------------------------------------
-# Verified current 2026-07-10. Override per-run with GROK_MODEL=... in the env.
+# Verified current 2026-08-14 (grok-4.6 confirmed in /v1/models). Override per-run with GROK_MODEL=... in the env.
 # Note: older slugs (grok-4, grok-4.3) are silently rerouted by xAI after
 # deprecation. Update this line when xAI ships a newer flagship.
-MODEL="${GROK_MODEL:-grok-4.5}"
+MODEL="${GROK_MODEL:-grok-4.6}"
 # -----------------------------------------------------------------------------
 
 if [ "$#" -lt 2 ]; then
