@@ -1,0 +1,15 @@
+{
+  "name": "waterfall-lint",
+  "owner": {
+    "name": "Alex Makarski",
+    "url": "https://github.com/alexmakarski"
+  },
+  "plugins": [
+    {
+      "name": "waterfall-lint",
+      "source": "../",
+      "description": "Sequential multi-critic QA loop that scrubs a finished artifact until critics run dry",
+      "version": "1.0.0"
+    }
+  ]
+}
