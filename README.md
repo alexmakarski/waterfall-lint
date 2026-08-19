@@ -1,5 +1,12 @@
 # Waterfall Lint
 
+> **SUPERSEDED.** This skill is now maintained as part of
+> [GADFLY](https://github.com/alexmakarski/gadfly), an adversarial review
+> stack bundling `prior-art`, `critic-gauntlet`, and `waterfall-lint`, with
+> unified critic scripts that work from both Claude Code and Codex. This repo
+> stays up for existing installs but receives no further updates. Install
+> GADFLY instead: `/plugin marketplace add alexmakarski/gadfly`.
+
 A Claude Code skill that scrubs a finished artifact until AI critics run dry. Critics from different model families review the artifact one at a time; every finding is fact-checked against ground truth before any fix ships; confirmed defects are fixed at class level (a validator, lint, or test, not just the one instance); and the loop stops after two consecutive passes find nothing new.
 
 For artifacts where shipping a defect costs credibility with a real reader: a client-facing report, a working paper about to be submitted, a marketing site going live.
